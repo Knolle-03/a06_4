@@ -1,4 +1,4 @@
-# Aufgabe a05_2
+# Aufgabe a06_4
 # Team ChillyCrabs
 # Author:: Lennart Draeger
 # Author:: Robert Gnehr
@@ -94,12 +94,4 @@ class Adresse2
     [@strasse, @hausnr, @plz, @stadt, @land].eql?(
         [other.strasse, other.hausnr, other.plz, other.stadt, other.land])
   end
-
-  #def <=>(other)
-   # [@plz]<=>[other.plz]
-  #end
-
-  # def succ
-   # Adresse2.new(@strasse, @hausnr,(@plz + 1), @stadt, @land)
-  #end
 end

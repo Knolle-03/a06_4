@@ -79,7 +79,7 @@ class A064Test < Test::Unit::TestCase
     assert_equal("#{@p1.to_s}#{@p2.to_s}#{@p3.to_s}", string)
     assert_equal('Erster PartnerZweiter TypDritter Mensch', string)
   end
-
+    # Tests sorting by surname and forename
   def test_sorting
     @a1.add_partner(@p2)
     @a1.add_partner(@p3)
